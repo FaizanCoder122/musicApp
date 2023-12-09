@@ -1,0 +1,73 @@
+/* SignUpPage.css */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #131313; /* Same as login screen */
+  }
+  
+  .signup-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #232323; /* Same as login screen */
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  }
+  
+  .signup-box .logo {
+    margin-bottom: 30px;
+    text-align: center;
+    /* Add styles for your logo here */
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .signup-form input {
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-button {
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6200EE; /* Same as login screen */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #3700B3; /* Same as login screen */
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-link a {
+    color: #BB86FC; /* Same as login screen */
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .signup-box {
+      width: 90%;
+      margin: auto;
+    }
+  }
+  

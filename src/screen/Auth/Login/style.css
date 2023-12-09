@@ -1,0 +1,78 @@
+/* LoginPage.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #131313; /* Adjust the color to match the screenshot */
+  }
+  
+  .login-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #232323; /* Adjust the color to match the screenshot */
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  }
+  
+  .login-box .logo {
+    margin-bottom: 30px;
+    text-align: center;
+    /* Add styles for your logo here */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .login-form input {
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px; /* Spacing between inputs and the button */
+  }
+  
+  .login-button {
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6200EE; /* Adjust the color to match the screenshot */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #3700B3; /* A slightly darker purple for hover effect */
+  }
+  
+  .help-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .help-links a {
+    color: #BB86FC; /* Adjust the color to match the screenshot */
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .help-links a:hover {
+    text-decoration: underline;
+  }
+  .heading {
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 480px) {
+    .login-box {
+      width: 90%;
+      margin: auto;
+    }
+  }
+  

@@ -1,0 +1,22 @@
+/* WorkInProgressPage.css */
+.work-in-progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .work-in-progress-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .work-in-progress-container p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
