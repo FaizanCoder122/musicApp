@@ -8,7 +8,7 @@ const NavigationBar = () => {
         <Navbar bg="dark" variant="dark" expand="lg">
           <Container>
             <LinkContainer to="/">
-              <Navbar.Brand>Your Logo</Navbar.Brand>
+              <Navbar.Brand>Phantom</Navbar.Brand>
             </LinkContainer>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
